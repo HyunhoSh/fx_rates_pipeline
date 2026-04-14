@@ -5,10 +5,10 @@ import pandas as pd
 
 
 # Path to raw ECB API response (saved during ingestion)
-RAW_DATA_PATH = Path("data/raw/ecb_fx_rates.json")
+RAW_DATA_PATH = Path("../data/raw/ecb_fx_rates.json")
 
 # Directory for processed outputs
-PROCESSED_DIR = Path("data/processed")
+PROCESSED_DIR = Path("../data/processed")
 
 # Output paths
 STAGING_OUTPUT_PATH = PROCESSED_DIR / "stg_fx_rates.csv"
